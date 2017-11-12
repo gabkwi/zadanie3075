@@ -1,0 +1,38 @@
+
+
+@media (max-width: 480px) {
+    
+    #sklep {
+        overflow: scroll;
+    }
+ 
+    
+    #sklep .sklep-item {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        top: 0;
+        height: 20%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+    
+    #sklep {
+        overflow: scroll;
+    }
+    
+    #sklep .sklep-item {
+        top: 0;
+        width: 40%;
+        height: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+
+    }
+}
